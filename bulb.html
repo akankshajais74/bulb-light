@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link href="./bulb.css" rel="stylesheet"> -->
+    <style>
+        body{
+    background-color:  #311b92;
+}
+button{
+    background-color: yellow;
+    margin: 22px;
+    padding: 15px;
+    font-size: 22px;
+    
+}
+.container{
+    text-align: center;
+    margin-top: 69px;
+}
+h1{
+    text-align: center;
+    font-size: 44px;
+    color: aliceblue;
+}
+    </style>
+</head>
+<body>
+    <h1>You can turn on/off the bulb</h1>
+    <div class="container">
+    <button onclick="document.getElementById('image').src='./bulb on.jpg' ">turn on the bulb</button>
+    <img id="image" src="./bulb.jpg">
+    <button onclick="document.getElementById('image').src='./bulb.jpg' ">turn off the bulb</button>
+</body>
+</html>
